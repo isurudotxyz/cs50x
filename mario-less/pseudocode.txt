@@ -1,0 +1,4 @@
+Mario.c pseudocode
+1. prompt user for  the height that is between 1 and 8 
+2. print height  number rows with an iteration
+2a. each row should contain n height char composed of spaces and hash + 1 on each iteration 
