@@ -79,12 +79,12 @@ void sort_cities(void)
     //     }
     // } while (swapped);
     // using selection sort
-    for (int i = 0; i< NUM_CITIES -1; i++){
+    for (int i = 0; i < NUM_CITIES -1; i++){
     int min = i;
     avg_temp tempo;
     for ( int j = i + 1; j < NUM_CITIES; j++)
     {
-        if(temps[j].temp > temps[min].temp )
+        if(temps[j].temp < temps[min].temp )
         {
             min = j;
         }
